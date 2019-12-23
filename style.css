@@ -1,15 +1,13 @@
 * {
     font-family: 'Courier New', Courier, monospace;
-    background-color: 	#A15289;
+    background-color: #A15289;
 }
 
 .teaser {
     color: white;
 }
 
-.teaserContainer {
-    display: flex;
-}
+.teaserContainer {}
 
 .categoryTitle {
     text-align: center;
@@ -18,7 +16,6 @@
 .mediaContainer {
     display: flex;
     justify-content: center;
-    width: 50%;
 }
 
 .teaserImage {
@@ -26,9 +23,7 @@
     border-radius: 50%;
 }
 
-.textContainer {
-    width: 50%;
-}
+.textContainer {}
 
 .articleTitel {
     text-align: center;
@@ -38,17 +33,25 @@
     text-align: center;
 }
 
-.articleDescription {
+.articleDescription {}
 
-}
-
-.articleLink {
-
-}
+.articleLink {}
 
 .mainLink {
     text-decoration: none;
     padding: 3px;
     border: solid 1px white;
     color: white;
+}
+
+@media screen and (min-width: 1024px) {
+    .teaserContainer {
+        display: flex;
+    }
+    .mediaContainer {
+        width: 50%;
+    }
+    .textContainer {
+        width: 50%;
+    }
 }
