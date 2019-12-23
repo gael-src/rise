@@ -61,6 +61,11 @@
     color: white;
 }
 
+.sustainabilityColor .mainLink {
+    border: solid 1px black;
+    color: black;
+}
+
 .sustainabilityColor {
     background-color: rgb(201, 149, 6);
 }
