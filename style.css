@@ -2,6 +2,45 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+.header {
+    display: flex;
+    background-color: rgb(177, 156, 40);
+}
+
+.riseLogoWrapper {
+    display: flex;
+}
+
+.riseLogo {
+    justify-content: center;
+    align-self: center;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+.navigation {
+    justify-content: center;
+    align-self: center;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+.navLink {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    justify-content: space-evenly;
+}
+
+.searchWrapper {
+    justify-content: center;
+    align-self: center;
+    padding-left: 100px;
+    padding-right: 20px;
+}
+
+.searchBar {}
+
 .teaser {
     padding: 20px;
 }
