@@ -5,6 +5,7 @@
 .header {
     display: flex;
     background-color: rgb(177, 156, 40);
+    height: 120px;
 }
 
 .riseLogoWrapper {
@@ -12,6 +13,7 @@
 }
 
 .riseLogo {
+    display: flex;
     justify-content: center;
     align-self: center;
     padding-left: 30px;
@@ -33,7 +35,7 @@
 }
 
 .searchWrapper {
-    justify-content: center;
+    justify-content: flex-end;
     align-self: center;
     padding-left: 100px;
     padding-right: 20px;
@@ -138,4 +140,28 @@
     .textContainer {
         width: 50%;
     }
+    .header {
+        display: flex;
+        height: 120px;
+    }
+    .riseLogoWrapper {
+        display: flex;
+    }
+    .riseLogo {
+        justify-content: center;
+        align-self: center;
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+    .navigation {
+        justify-content: center;
+        align-self: center;
+        position: sticky;
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+    .navLink {
+        justify-content: space-evenly;
+    }
+    .searchWrapper {}
 }
