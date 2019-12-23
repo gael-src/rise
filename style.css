@@ -3,7 +3,6 @@
 }
 
 .teaser {
-    color: white;
     padding: 20px;
 }
 
@@ -59,6 +58,7 @@
 
 .humanRightsColor {
     background-color: #da6645;
+    color: white;
 }
 
 .sustainabilityColor {
@@ -67,14 +67,17 @@
 
 .diversityColor {
     background-color: rgb(226, 110, 154);
+    color: white;
 }
 
 .innovationColor {
     background-color: rgb(110, 142, 185);
+    color: white;
 }
 
 .selfColor {
     background-color: #A15289;
+    color: white;
 }
 
 @media screen and (min-width: 1024px) {
