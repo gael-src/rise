@@ -45,6 +45,9 @@
 }
 
 @media screen and (min-width: 1024px) {
+    * {
+        background-color: #da6645;
+    }
     .teaserContainer {
         display: flex;
     }
