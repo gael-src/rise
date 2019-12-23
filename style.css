@@ -137,9 +137,23 @@ input::placeholder {
     color: white;
 }
 
+.footer {
+    height: 160px;
+    width: 100%;
+    background-color: rgb(49, 49, 49);
+    color: white;
+}
+
+h2 {
+    margin-top: 0px;
+}
+
 @media screen and (min-width: 1024px) {
     .teaserReverse .textContainer {
         order: -1;
+    }
+    .teasersWrapper {
+        padding-bottom: 35px;
     }
     .teaserContainer {
         display: flex;
@@ -149,6 +163,7 @@ input::placeholder {
     }
     .textContainer {
         width: 50%;
+        padding-top: 35px;
     }
     .header {
         display: flex;
