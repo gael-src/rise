@@ -4,14 +4,18 @@
 
 .teaser {
     color: white;
-    background-color: #A15289;
     padding: 20px;
+}
+
+.teasersWrapper {
+    padding-top: 35px;
 }
 
 .teaserContainer {}
 
 .categoryTitle {
     text-align: center;
+    margin-top: 0px;
     margin-bottom: 20px;
 }
 
@@ -53,11 +57,28 @@
     color: white;
 }
 
+.humanRightsColor {
+    background-color: #da6645;
+}
+
+.sustainabilityColor {
+    background-color: rgb(201, 149, 6);
+}
+
+.diversityColor {
+    background-color: rgb(226, 110, 154);
+}
+
+.innovationColor {
+    background-color: rgb(110, 142, 185);
+}
+
+.selfColor {
+    background-color: #A15289;
+}
+
 @media screen and (min-width: 1024px) {
-    .teaser {
-        background-color: #da6645;
-    }
-    .teaserReverse>.textContainer {
+    .teaserReverse .textContainer {
         order: -1;
     }
     .teaserContainer {
