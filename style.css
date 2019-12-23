@@ -5,6 +5,7 @@
 .header {
     display: flex;
     background-color: rgb(177, 156, 40);
+    width: 100%;
     height: 120px;
 }
 
@@ -13,7 +14,6 @@
 }
 
 .riseLogo {
-    display: flex;
     justify-content: center;
     align-self: center;
     padding-left: 30px;
@@ -31,7 +31,6 @@
     text-decoration: none;
     color: black;
     font-weight: bold;
-    justify-content: space-evenly;
 }
 
 .searchWrapper {
