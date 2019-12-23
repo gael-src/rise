@@ -5,17 +5,20 @@
 .teaser {
     color: white;
     background-color: #A15289;
+    padding: 20px;
 }
 
 .teaserContainer {}
 
 .categoryTitle {
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .mediaContainer {
     display: flex;
     justify-content: center;
+    align-self: center;
 }
 
 .teaserImage {
@@ -27,13 +30,18 @@
 
 .articleTitel {
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .articleSubTitle {
     text-align: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
 }
 
-.articleDescription {}
+.articleDescription {
+    margin-bottom: 15px;
+}
 
 .articleLink {}
 
@@ -41,6 +49,7 @@
     text-decoration: none;
     padding: 3px;
     border: solid 1px white;
+    padding: 3px 15px 2px 15px;
     color: white;
 }
 
