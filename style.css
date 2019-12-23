@@ -1,33 +1,41 @@
 * {
     font-family: 'Courier New', Courier, monospace;
+    background-color: 	#A15289;
 }
 
 .teaser {
+    color: white;
+}
 
+.teaserContainer {
+    display: flex;
 }
 
 .categoryTitle {
-
+    text-align: center;
 }
 
 .mediaContainer {
-
+    display: flex;
+    justify-content: center;
+    width: 50%;
 }
 
 .teaserImage {
-    width: 300px;
+    width: 60%;
+    border-radius: 50%;
 }
 
 .textContainer {
-
+    width: 50%;
 }
 
 .articleTitel {
-
+    text-align: center;
 }
 
 .articleSubTitle {
-
+    text-align: center;
 }
 
 .articleDescription {
@@ -39,5 +47,8 @@
 }
 
 .mainLink {
-
+    text-decoration: none;
+    padding: 3px;
+    border: solid 1px white;
+    color: white;
 }
