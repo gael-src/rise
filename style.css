@@ -57,6 +57,9 @@
     .teaser {
         background-color: #da6645;
     }
+    .teaserReverse>.textContainer {
+        order: -1;
+    }
     .teaserContainer {
         display: flex;
     }
