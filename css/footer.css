@@ -1,0 +1,13 @@
+
+
+@media screen and (min-width: 1024px) {
+    .footer {
+        height: 160px;
+        width: 100%;
+        background-color: rgb(49, 49, 49);
+        color: white;
+    }
+    .footerTitelLeft {}
+    .footerTitelRight {}
+    .footerLink {}
+}

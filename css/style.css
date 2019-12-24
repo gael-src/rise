@@ -1,21 +1,12 @@
 @import 'nav.css';
 @import 'teaser.css';
 @import 'main-teaser.css';
-
-
+@import 'footer.css';
 * {
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
     padding: 0;
     border: 0;
-}
-
-.mainLink {
-    text-decoration: none;
-    padding: 3px;
-    border: solid 1px white;
-    padding: 3px 15px 2px 15px;
-    color: white;
 }
 
 .humanRightsColor {
@@ -52,13 +43,5 @@ h2 {
 }
 
 @media screen and (min-width: 1024px) {
-    .footer {
-        height: 160px;
-        width: 100%;
-        background-color: rgb(49, 49, 49);
-        color: white;
-    }
-    .footerTitelLeft {}
-    .footerTitelRight {}
-    .footerLink {}
+    
 }

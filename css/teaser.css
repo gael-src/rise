@@ -45,6 +45,14 @@
 
 .articleLink {}
 
+.mainLink {
+    text-decoration: none;
+    padding: 3px;
+    border: solid 1px white;
+    padding: 3px 15px 2px 15px;
+    color: white;
+}
+
 @media screen and (min-width: 1024px) {
     .mainTeaserContainer {
         display: flex;
