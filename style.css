@@ -10,6 +10,7 @@
 .riseLogoWrapper {}
 
 .riseLogo {
+    width: 120px;
     /* justify-content: center; */
     /* align-self: center; */
 }
