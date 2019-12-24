@@ -1,5 +1,8 @@
 * {
     font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 .header {
@@ -75,11 +78,13 @@ input::placeholder {
 }
 
 .mainMediaContainer {
+    background-image: url("galaxy.jpg");
     width: 100%;
+    background-position: 50% 50%;
+    height: 70vh;
 }
 
 .mainTeaserImage {
-    width: 100%;
     height: 100%;
 }
 
@@ -167,13 +172,6 @@ input::placeholder {
     color: white;
 }
 
-.footer {
-    height: 160px;
-    width: 100%;
-    background-color: rgb(49, 49, 49);
-    color: white;
-}
-
 h2 {
     margin-top: 0px;
 }
@@ -194,7 +192,10 @@ h2 {
         padding-right: 20px;
     }
     .navigation {
-        justify-content: center;
+        justify-content: cemargin: 0;
+        padding: 0;
+        border: 0;
+        nter;
         align-self: center;
         padding-left: 30px;
         padding-right: 20px;
@@ -225,6 +226,7 @@ h2 {
     }
     .mainMediaContainer {
         width: 50%;
+        height: auto;
     }
     .mainTextContainer {
         width: 50%;
@@ -250,4 +252,13 @@ h2 {
         width: 50%;
         padding-top: 35px;
     }
+    .footer {
+        height: 160px;
+        width: 100%;
+        background-color: rgb(49, 49, 49);
+        color: white;
+    }
+    .footerTitelLeft {}
+    .footerTitelRight {}
+    .footerLink {}
 }
