@@ -1,0 +1,55 @@
+.mainTeaser {
+    height: 100%;
+}
+
+.mainTeaserContainer {}
+
+.mainTextContainer {
+    width: 100%;
+    text-align: center;
+    margin: 20% auto;
+}
+
+.mainTitel {
+    color: purple;
+}
+
+.mainArticleDescription {
+    margin-bottom: 20px;
+}
+
+.homeMainLink {
+    text-decoration: none;
+    border: solid 1px purple;
+    padding: 3px 15px 2px 15px;
+    color: purple;
+}
+
+.mainMediaContainer {
+    background-image: url("../images/galaxy.jpg");
+    width: 100%;
+    background-position: 50% 50%;
+    height: 70vh;
+}
+
+.mainTeaserImage {
+    height: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+    .mainTeaserContainer {
+        display: flex;
+    }
+    .mainMediaContainer {
+        width: 50%;
+        height: auto;
+    }
+    .mainTextContainer {
+        width: 50%;
+        height: 100%;
+    }
+    .mainTeaserImage {
+        width: 100%;
+        height: 100%;
+    }
+}

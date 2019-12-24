@@ -1,0 +1,64 @@
+@import 'nav.css';
+@import 'teaser.css';
+@import 'main-teaser.css';
+
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.mainLink {
+    text-decoration: none;
+    padding: 3px;
+    border: solid 1px white;
+    padding: 3px 15px 2px 15px;
+    color: white;
+}
+
+.humanRightsColor {
+    background-color: #da6645;
+    color: white;
+}
+
+.sustainabilityColor .mainLink {
+    border: solid 1px black;
+    color: black;
+}
+
+.sustainabilityColor {
+    background-color: rgb(201, 149, 6);
+}
+
+.diversityColor {
+    background-color: rgb(226, 110, 154);
+    color: white;
+}
+
+.innovationColor {
+    background-color: rgb(110, 142, 185);
+    color: white;
+}
+
+.selfColor {
+    background-color: #A15289;
+    color: white;
+}
+
+h2 {
+    margin-top: 0px;
+}
+
+@media screen and (min-width: 1024px) {
+    .footer {
+        height: 160px;
+        width: 100%;
+        background-color: rgb(49, 49, 49);
+        color: white;
+    }
+    .footerTitelLeft {}
+    .footerTitelRight {}
+    .footerLink {}
+}
