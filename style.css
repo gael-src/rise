@@ -3,28 +3,22 @@
 }
 
 .header {
-    display: flex;
     background-color: rgb(177, 156, 40);
     width: 100%;
-    height: 120px;
 }
 
 .riseLogoWrapper {
-    display: flex;
+    
 }
 
 .riseLogo {
-    justify-content: center;
-    align-self: center;
-    padding-left: 30px;
-    padding-right: 20px;
+    /* justify-content: center; */
+    /* align-self: center; */
 }
 
 .navigation {
-    justify-content: center;
-    align-self: center;
-    padding-left: 30px;
-    padding-right: 20px;
+    /* justify-content: center; */
+    /* align-self: center; */
 }
 
 .navLink {
@@ -33,12 +27,7 @@
     font-weight: bold;
 }
 
-.searchWrapper {
-    justify-content: flex-end;
-    align-self: center;
-    padding-left: 100px;
-    padding-right: 20px;
-}
+.searchWrapper {}
 
 .searchBar {
     background-color: rgba(255, 0, 0, 0);
@@ -46,6 +35,7 @@
     border-right: 0px;
     border-bottom: 1px solid black;
     border-left: 0px;
+    margin-right: 10px;
 }
 
 input::placeholder {
@@ -149,6 +139,38 @@ h2 {
 }
 
 @media screen and (min-width: 1024px) {
+    .header {
+        display: flex;
+        height: 120px;
+        /* position: sticky; */
+    }
+    .riseLogoWrapper {
+        display: flex;
+    }
+    .riseLogo {
+        justify-content: center;
+        align-self: center;
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+    .navigation {
+        justify-content: center;
+        align-self: center;
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+    .navLink {
+        justify-content: space-evenly;
+    }
+    .searchWrapper {
+        display: flex;
+        align-self: center;
+        /* justify-content: flex-end; */
+        /* align-items: flex-end; */
+        padding-left: 100px;
+        padding-right: 20px;
+        margin-right: 10px;
+    }
     .teaserReverse .textContainer {
         order: -1;
     }
@@ -165,28 +187,5 @@ h2 {
         width: 50%;
         padding-top: 35px;
     }
-    .header {
-        display: flex;
-        height: 120px;
-    }
-    .riseLogoWrapper {
-        display: flex;
-    }
-    .riseLogo {
-        justify-content: center;
-        align-self: center;
-        padding-left: 30px;
-        padding-right: 20px;
-    }
-    .navigation {
-        justify-content: center;
-        align-self: center;
-        position: sticky;
-        padding-left: 30px;
-        padding-right: 20px;
-    }
-    .navLink {
-        justify-content: space-evenly;
-    }
-    .searchWrapper {}
+    
 }
