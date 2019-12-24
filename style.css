@@ -168,14 +168,11 @@ h2 {
         justify-content: space-evenly;
     }
     .navLink {
-        /* justify-content: space-evenly; */
         margin: 10px 20px 10px 20px;
     }
     .searchWrapper {
         display: flex;
         align-self: center;
-        /* justify-content: flex-end; */
-        /* align-items: flex-end; */
         padding-left: 100px;
         padding-right: 20px;
         margin-right: 10px;
