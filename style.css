@@ -141,8 +141,8 @@ h2 {
 @media screen and (min-width: 1024px) {
     .header {
         display: flex;
+        justify-content: space-around;
         height: 120px;
-        /* position: sticky; */
     }
     .riseLogoWrapper {
         display: flex;
@@ -159,8 +159,17 @@ h2 {
         padding-left: 30px;
         padding-right: 20px;
     }
-    .navLink {
+    .navTop {
+        display: flex;
         justify-content: space-evenly;
+    }
+    .navDown {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .navLink {
+        /* justify-content: space-evenly; */
+        margin: 10px 20px 10px 20px;
     }
     .searchWrapper {
         display: flex;
