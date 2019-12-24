@@ -3,7 +3,7 @@
 }
 
 .header {
-    background-color: rgb(177, 156, 40);
+    background-color: rgb(228, 199, 36);
     width: 100%;
 }
 
@@ -170,12 +170,19 @@ h2 {
     .navLink {
         margin: 10px 20px 10px 20px;
     }
+    .navLink:hover {
+        border-bottom: 2px solid black;
+    }
     .searchWrapper {
         display: flex;
         align-self: center;
         padding-left: 100px;
         padding-right: 20px;
         margin-right: 10px;
+    }
+    .searchLogo {
+        width: 15px;
+        margin-right: 5px;
     }
     .teaserReverse .textContainer {
         order: -1;
