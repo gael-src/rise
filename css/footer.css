@@ -4,59 +4,63 @@
     background-color: rgb(49, 49, 49);
     color: yellow;
 }
+
 .footerLogoWrapper {
     text-align: center;
 }
-.footerLogo {
-}
-.footerMainWrapper {
-}
-.footerTitleUpWrapper {
-}
-.footerTitleLeft {
-}
-.footerTitleRight {
-    
-}
+
+.footerLogo {}
+
+.footerMainWrapper {}
+
+.footerTitleUpWrapper {}
+
+.footerTitleLeft {}
+
+.footerTitleRight {}
+
 .footerLinkList {
     list-style: none;
 }
-.footerLinkListElement {
-    
-}
+
+.footerLinkListElement {}
+
 .footerLink {
     color: yellow;
     text-decoration: none;
     list-style: none;
 }
+
 .mailContactWrapper {
     margin-top: 25px;
 }
+
 .mailParagraph {
     font-size: 22px;
     font-weight: bold;
 }
-.newsletterSubscribeWrapper {
 
-}
-.newsletterSubscribeTextWrapper {
-    
-}
-.newsletterSubscribeInputWrapper {
-    
-}
+.newsletterSubscribeWrapper {}
+
+.newsletterSubscribeTextWrapper {}
+
+.newsletterSubscribeInputWrapper {}
+
 .newsletterSubscribeInput {
     background-color: rgb(110, 109, 109);
     padding: 3px 10px 2px 10px;
 }
+
 .newsletterSubscribeButton {
     background-color: yellow;
     padding: 3px 5px 2px 5px;
 }
+
 .socialMediaLogos {
     display: flex;
     justify-content: space-evenly;
 }
+
 @media screen and (min-width: 1024px) {
     .footer {
         display: flex;
@@ -86,9 +90,7 @@
     .footerTitleRight {
         margin-top: 25px;
     }
-    .footerLinkList {
-    
-    }
+    .footerLinkList {}
     .footerLinkListElement {
         padding: 8px 0px;
     }
@@ -98,9 +100,7 @@
     .mailContactWrapper {
         margin-top: 25px;
     }
-    .mailParagraph {
-        
-    }
+    .mailParagraph {}
     .newsletterSubscribeWrapper {
         display: flex;
         justify-content: space-around;
@@ -116,15 +116,12 @@
     .newsletterSubscribeInputWrapper {
         flex-grow: 2;
     }
-    .newsletterSubscribeInput {
-       
-    }
-    .newsletterSubscribeButton {
-        
-    }
+    .newsletterSubscribeInput {}
+    .newsletterSubscribeButton {}
     .socialMediaLogos {
         flex-grow: 1;
         display: flex;
         justify-content: space-evenly;
     }
+
 }
