@@ -48,6 +48,7 @@ input::placeholder {
         display: flex;
         justify-content: space-around;
         height: 120px;
+        position: fixed;
     }
     .riseLogoWrapper {
         display: flex;
