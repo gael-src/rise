@@ -1,7 +1,7 @@
 @media screen and (min-width: 1024px) {
     .footer {
         display: flex;
-        height: 200px;
+        height: 250px;
         width: 100%;
         background-color: rgb(49, 49, 49);
         color: yellow;
@@ -51,10 +51,21 @@
     .newsletterSubscribeWrapper {
         display: flex;
         justify-content: space-around;
+        flex-flow: row wrap;
+        align-items: stretch;
         height: 30%;
-        background-color: red;
     }
-    .newsletterSubscribeTextWrapper {}
-    .newsletterSubscribeInputWrapper {}
-    .socialMediaLogos {}
+    .newsletterSubscribeTextWrapper {
+        text-align: end;
+        flex-grow: 1;
+        width: 25%;
+    }
+    .newsletterSubscribeInputWrapper {
+        flex-grow: 2;
+    }
+    .socialMediaLogos {
+        flex-grow: 1;
+        display: flex;
+        justify-content: space-evenly;
+    }
 }
