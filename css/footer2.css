@@ -1,0 +1,50 @@
+
+
+
+@media screen and (min-width: 1024px) {
+    .footer {
+        height: 250px;
+    }
+    .mainWrapper {
+        background-color: red;
+        display: flex;
+        height: 100%;
+    }
+    .logoWrapper {
+        height: 100%;
+        width: 25%;
+        background-color: blueviolet;
+    }
+    .footerLogo {}
+    .titelLeftWrapper {
+        height: 100%;
+        width: 25%;
+        background-color: rgb(43, 226, 156);
+    }
+    .footerLinkList {
+        
+    }
+    .footerLinkListElement {
+        list-style: none;
+        
+    }
+    .footerLink {
+        text-decoration: none;
+    }
+    .newsletterSubscribeTextWrapperParagraph {}
+    .titelRightWrapper {
+        height: 100%;
+        width: 25%;
+        background-color: rgb(226, 43, 156);
+    }
+    .newsletterSubscribeInput {}
+    .newsletterSubscribeButton {}
+    .contactWrapper {
+        height: 100%;
+        width: 25%;
+        background-color: rgb(226, 147, 43);
+    }
+    .mailParagraph {}
+    .searchLogo {}
+    
+}

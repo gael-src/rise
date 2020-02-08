@@ -60,10 +60,10 @@ input::placeholder {
         padding-right: 20px;
     }
     .navigation {
-        justify-content: cemargin: 0;
+        justify-content: center;
+        margin: 0;
         padding: 0;
         border: 0;
-        nter;
         align-self: center;
         padding-left: 30px;
         padding-right: 20px;
