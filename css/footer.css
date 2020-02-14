@@ -16,18 +16,21 @@
 
 .footerLogo {
 	font-size: 33px;
-
 	padding-top: 12%;
 	padding-left: 12%;
 }
 
 .titelLeftWrapper {
 	height: 100%;
-	width: 20%;
+	width: 25%;
 }
 
-.footerLinkList {
+.footerLinkListLeft {
 	padding: 10% 0;
+}
+
+.footerLinkListRight {
+	padding: 6% 0 20% 0;
 }
 
 .footerLinkListElement {
@@ -48,12 +51,10 @@
 
 .titelRightWrapper {
 	height: 100%;
-	width: 20%;
+	width: 30%;
 }
 
 .newsletterSubscribeInput {
-	margin-top: 13%;
-	/* width: 288px; */
 	height: 30px;
 	background-color: #4a4545;
 	color: #a0946d;
@@ -72,9 +73,30 @@
 
 .contactWrapper {
 	height: 100%;
-	width: 35%;
+	width: 20%;
 }
 
-.mailParagraph {}
+.contactTextOne {
+	padding-top: 10%;
+	padding-right: 10%;
+	display: flex;
+	justify-content: right;
+}
 
-.searchLogo {}
+.contactTextTwo {
+	padding-right: 10%;
+	display: flex;
+	justify-content: right;
+}
+
+.mailParagraph {
+	padding-right: 10%;
+	display: flex;
+	justify-content: right;
+}
+
+.searchLogo {
+	display: flex;
+	display: inline-flex;
+	padding: 45% 0 10% 10%;
+}
