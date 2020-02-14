@@ -1,136 +1,80 @@
 .footer {
-    height: 80vh;
-    width: 100%;
-    background-color: rgb(109, 109, 109);
-    color: yellow;
+	height: 250px;
+	color: #efcb5e;
 }
 
-.footerLogoWrapper {
-    text-align: center;
+.mainWrapper {
+	background-color: #5e5b52;
+	display: flex;
+	height: 100%;
 }
 
-.footerLogo {}
+.logoWrapper {
+	height: 100%;
+	width: 25%;
+}
 
-.footerMainWrapper {}
+.footerLogo {
+	font-size: 33px;
 
-.footerTitleUpWrapper {}
+	padding-top: 12%;
+	padding-left: 12%;
+}
 
-.footerTitleLeft {}
-
-.footerTitleRight {}
+.titelLeftWrapper {
+	height: 100%;
+	width: 20%;
+}
 
 .footerLinkList {
-    list-style: none;
+	padding: 10% 0;
 }
 
-.footerLinkListElement {}
+.footerLinkListElement {
+	list-style: none;
+	padding: 5px;
+}
 
 .footerLink {
-    color: yellow;
-    text-decoration: none;
-    list-style: none;
+	text-decoration: none;
+	color: #efcb5e;
 }
 
-.mailContactWrapper {
-    margin-top: 25px;
+.newsletterSubscribeTextWrapperParagraphOne {
+	padding-top: 10%;
 }
 
-.mailParagraph {
-    font-size: 22px;
-    font-weight: bold;
+.newsletterSubscribeTextWrapperParagraphTwo {}
+
+.titelRightWrapper {
+	height: 100%;
+	width: 20%;
 }
-
-.newsletterSubscribeWrapper {}
-
-.newsletterSubscribeTextWrapper {
-    
-}
-
-.newsletterSubscribeTextWrapperParagraph {
-    display: flex;
-    align-items: left;
-    justify-content: left;
-    padding-left: 120px;
-    padding-top: 3px;
-}
-
-.newsletterSubscribeInputWrapper {}
 
 .newsletterSubscribeInput {
-    background-color: rgb(49, 49, 49);
-    padding: 5px 10px 4px 10px;
+	margin-top: 13%;
+	/* width: 288px; */
+	height: 30px;
+	background-color: #4a4545;
+	color: #a0946d;
+}
+
+.newsletterSubscribeInput::placeholder {
+	color: #a0946d;
+	opacity: 1;
 }
 
 .newsletterSubscribeButton {
-    background-color: #918c5c;
-    padding: 5px 5px 4px 5px;
+	width: 83px;
+	height: 30px;
+	background-color: #a0946d;
 }
 
-.socialMediaLogos {
-    display: flex;
-    justify-content: space-evenly;
+.contactWrapper {
+	height: 100%;
+	width: 35%;
 }
 
-@media screen and (min-width: 1024px) {
-    .footer {
-        display: flex;
-        height: 250px;
-        width: 100%;
-    }
-    .footerLogoWrapper {
-        width: 15%;
-        height: 100%;
-        text-align: center;
-    }
-    .footerLogo {
-        margin-top: 30px;
-    }
-    .footerMainWrapper {
-        width: 100%;
-    }
-    .footerTitleUpWrapper {
-        display: flex;
-        justify-content: space-around;
-        height: 70%;
-    }
-    .footerTitleLeft {
-        /* flex-direction: column; */
-        margin-top: 25px;
-    }
-    .footerTitleRight {
-        margin-top: 25px;
-    }
-    .footerLinkList {}
-    .footerLinkListElement {
-        padding: 8px 0px;
-    }
-    .footerLink {
-        padding: 100px;
-    }
-    .mailContactWrapper {
-        margin-top: 25px;
-    }
-    .mailParagraph {}
-    .newsletterSubscribeWrapper {
-        display: flex;
-        justify-content: space-around;
-        flex-flow: row wrap;
-        align-items: stretch;
-        height: 30%;
-    }
-    .newsletterSubscribeTextWrapper {
-        text-align: end;
-        flex-grow: 1;
-        width: 25%;
-    }
-    .newsletterSubscribeInputWrapper {
-        flex-grow: 2;
-    }
-    .newsletterSubscribeInput {}
-    .newsletterSubscribeButton {}
-    .socialMediaLogos {
-        flex-grow: 1;
-        display: flex;
-        justify-content: space-evenly;
-    }
-}
+.mailParagraph {}
+
+.searchLogo {}
