@@ -26,11 +26,11 @@
 }
 
 .footerLinkListLeft {
-	padding: 10% 0;
+	padding: 10% 0 10% 20%;
 }
 
 .footerLinkListRight {
-	padding: 6% 0 20% 0;
+	padding: 9% 0 17% 0;
 }
 
 .footerLinkListElement {
@@ -45,9 +45,14 @@
 
 .newsletterSubscribeTextWrapperParagraphOne {
 	padding-top: 10%;
+	display: flex;
+	justify-content: right;
 }
 
-.newsletterSubscribeTextWrapperParagraphTwo {}
+.newsletterSubscribeTextWrapperParagraphtwo {
+	display: flex;
+	justify-content: right;
+}
 
 .titelRightWrapper {
 	height: 100%;
@@ -55,6 +60,7 @@
 }
 
 .newsletterSubscribeInput {
+	margin-left: 10px;
 	height: 30px;
 	background-color: #4a4545;
 	color: #a0946d;
@@ -77,20 +83,22 @@
 }
 
 .contactTextOne {
-	padding-top: 10%;
-	padding-right: 10%;
+	padding: 10% 15% 3px 0;
+	/* padding-right: 15%; */
 	display: flex;
 	justify-content: right;
 }
 
 .contactTextTwo {
-	padding-right: 10%;
+	padding: 0 15% 3px 0;
 	display: flex;
 	justify-content: right;
 }
 
 .mailParagraph {
-	padding-right: 10%;
+	padding-right: 15%;
+	font-size: 22px;
+	font-weight: bold;
 	display: flex;
 	justify-content: right;
 }
@@ -98,5 +106,5 @@
 .searchLogo {
 	display: flex;
 	display: inline-flex;
-	padding: 45% 0 10% 10%;
+	padding: 38% 0 10% 10%;
 }
