@@ -87,7 +87,6 @@
 }
 
 .commentLink {
-
     color: #aa5e93;
     text-decoration: none;
     border: solid 2px #aa5e93;
@@ -96,21 +95,37 @@
 
 .articleSubSelfTeaserWrapper {
     display: flex;
-    width: 100%;
-    text-align: center;
-    border: solid 2px red;
+    width: 90%;
+    margin: 20px auto;
+    margin-bottom: 30px;
+}
+
+.moreInSelf {
+    color: #aa5e93;
 }
 
 .articleSubSelfTeaserContainers {
-
+    display: flex;
     height: 100%;
     width: 33.300%;
-    border: solid 2px blue;
 }
 
-. {}
+.subarticleSubSelfLeftWrapp {
+    text-align: center;
+    height: auto;
+    width: 70%;
+}
 
-. {}
+.subSelfTeaserLinks {
+    color: #aa5e93;
+    text-decoration: none;
+    border: solid 2px #aa5e93;
+    padding: 5px 20px 5px 20px;
+}
+
+.subTeaserSelfImg {
+    width: 70%;
+}
 
 .articleSubCommunityTeaserWrapperAround {
     background-color: #aa5e93;
@@ -142,6 +157,7 @@
 
 .subSelfTeaserParagraph {
     min-height: 45%;
+    padding: 0 20px;
 
 }
 
