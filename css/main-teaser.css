@@ -8,17 +8,19 @@
 
 .mainTextContainer {
     text-align: center;
-    margin: 20% auto;
+    margin: 20% 20px;
     width: 50%;
     height: 100%;
 }
 
 .mainTitel {
     color: #aa5e93;
+    font-size: 33px;
+    margin: 0;
 }
 
 .mainArticleDescription {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .homeMainLink {

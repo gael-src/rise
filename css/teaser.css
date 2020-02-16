@@ -69,18 +69,22 @@
 }
 
 .articleTitel {
+    font-size: 22px;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .articleSubTitle {
+    font-size: 18px;
     text-align: center;
     margin-top: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+
 }
 
 .articleDescription {
-    margin-bottom: 15px;
+    margin-bottom: 25px;
+    margin-right: 40px;
 }
 
 .mainLink {
