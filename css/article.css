@@ -97,28 +97,59 @@
 .articleSubSelfTeaserWrapper {
     display: flex;
     width: 100%;
-    border: solid 2px red;
-}
-
-.articleSubCommunityTeaserWrapper {
-    display: flex;
-    background-color: #aa5e93;
-    width: 100%;
+    text-align: center;
     border: solid 2px red;
 }
 
 .articleSubSelfTeaserContainers {
 
     height: 100%;
-    width: 33.33%;
+    width: 33.300%;
     border: solid 2px blue;
 }
 
-.articleSubCommunityTeaserContainers {
+. {}
 
-    height: 100%;
+. {}
+
+.articleSubCommunityTeaserWrapperAround {
+    background-color: #aa5e93;
+    color: #f3f2ee;
+}
+
+.articleSubCommunityTeaserWrapperAnnouncement {
+    padding: 10px 50px;
+    font-weight: bold;
+}
+
+.articleSubCommunityTeaserWrapper {
+    display: flex;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.articleSubCommunityTeaserContainers {
+    height: auto;
+    padding: 30px 50px;
     width: 33.33%;
-    border: solid 2px blue;
+}
+
+.subSelfTeaserH3 {}
+
+.subSelfTeaserH4 {}
+
+.subSelfTeaserParagraph {
+    min-height: 45%;
+
+}
+
+.subSelfTeaserLink {
+    text-decoration: none;
+    color: #f3f2ee;
+    border: solid 2px #f3f2ee;
+    padding: 3px 20px;
 }
 
 @media screen and (max-width: 1024px) {}
