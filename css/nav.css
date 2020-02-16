@@ -11,6 +11,15 @@
     display: flex;
 }
 
+.h1Link {
+    display: flex;
+    align-self: center;
+}
+
+h1 {
+    margin: 0;
+}
+
 .riseLogo {
     width: 120px;
     justify-content: center;

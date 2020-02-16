@@ -32,9 +32,8 @@
 }
 
 .teasersWrapper {
-    padding-top: 50px;
-    padding-bottom: 35px;
-
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .categoryTitle {
@@ -45,6 +44,7 @@
 
 .teaser {
     padding: 20px;
+    height: auto;
 }
 
 .teaserContainer {

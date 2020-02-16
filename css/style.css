@@ -2,6 +2,7 @@
 @import 'main-teaser.css';
 @import 'teaser.css';
 @import 'footer.css';
+@import 'self.css';
 
 body {
     margin: 0;
