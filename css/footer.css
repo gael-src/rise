@@ -3,6 +3,11 @@
 	color: #efcb5e;
 }
 
+.h2FooterLink {
+	text-decoration: none;
+	color: #efcb5e;
+}
+
 .mainWrapper {
 	background-color: #5e5b52;
 	display: flex;
