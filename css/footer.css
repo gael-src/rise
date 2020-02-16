@@ -12,11 +12,12 @@
 
 .logoWrapper {
 	height: auto;
-	min-width: 30%;
+	min-width: 25%;
 }
 
 .footerLogo {
 	font-size: 33px;
+	margin: 0;
 }
 
 .titelLeftWrapper {
@@ -24,39 +25,36 @@
 	width: auto;
 }
 
-.footerLinkListLeft {}
-
 .footerLink {
+	font-weight: bold;
 	text-decoration: none;
 	color: #efcb5e;
+	display: block;
+	margin-bottom: 5px;
 }
 
 .newsletterSubscribeTextWrapperParagraphOne {
-	padding-bottom: 5px;
-	margin-top: 50px;
+	margin: 0;
+
 }
 
-.newsletterSubscribeTextWrapperParagraphtwo {}
+.newsletterSubscribeTextWrapperParagraphtwo {
+	margin: 0;
+	margin-right: 5px;
+}
 
 .titelRightWrapper {
 	height: auto;
-	min-width: 25%;
-}
-
-.footerLinkListRight {}
-
-.footerLinkListElement {
-	list-style: none;
-	font-weight: bold;
-	padding-bottom: 5px;
+	width: 30%;
 }
 
 .newsletterSubscribeInput {
-	width: auto;
-	height: 30px;
+	width: 60%;
+	height: 33px;
 	background-color: #4a4545;
 	color: #a0946d;
-	margin-top: 60px;
+	margin: 0;
+	border: none;
 }
 
 .newsletterSubscribeInput::placeholder {
@@ -65,35 +63,40 @@
 }
 
 .newsletterSubscribeButton {
-	width: 20%;
-	height: 30px;
+	width: 30%;
+	height: 33px;
 	background-color: #a0946d;
+	border: none;
+
 }
 
 .contactWrapper {
 	height: auto;
-	min-width: 30%;
+	min-width: 25%;
 	text-align: right;
 }
 
 .contactTextOne {
-	padding-bottom: 3px;
+	margin: 0;
 }
 
 .contactTextTwo {
-	padding-bottom: 5px;
+	margin: 0;
 }
 
 .mailParagraph {
-	padding-bottom: 5px;
+	margin: 0;
 	font-size: 22px;
 	font-weight: bold;
 }
 
-.searchLogo {
-	margin-top: 50px;
-	display: inline-flex;
-	justify-content: right;
+.marginBetween {
+	margin-bottom: 60px;
 }
 
-@media screen and (max-width: 1024px) {}
+.searchLogoFooter {
+	margin-left: 10px;
+	width: 30px;
+}
+
+@media screen and (min-width: 1024px) {}

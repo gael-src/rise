@@ -4,21 +4,21 @@
 }
 
 .sustainabilityColor {
-    background-color: rgb(228, 199, 36);
+    background-color: #efcb5e;
 }
 
 .diversityColor {
-    background-color: rgb(226, 110, 154);
+    background-color: #a40e4c;
     color: white;
 }
 
 .innovationColor {
-    background-color: rgb(110, 142, 185);
+    background-color: rgba(44, 44, 84, 0.8);
     color: white;
 }
 
 .selfColor {
-    background-color: #A15289;
+    background-color: #aa5e93;
     color: white;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .humanRightsColor {
-    background-color: #da6645;
+    background-color: #c25e43;
     color: white;
 }
 

@@ -1,5 +1,5 @@
 .header {
-    background-color: rgb(228, 199, 36);
+    background-color: #efcb5e;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -62,7 +62,8 @@
 .searchLogo {
     height: 15px;
     margin-right: 5px;
-
+    display: flex;
+    align-self: center;
 }
 
 .searchBar {

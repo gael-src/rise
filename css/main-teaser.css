@@ -14,7 +14,7 @@
 }
 
 .mainTitel {
-    color: purple;
+    color: #aa5e93;
 }
 
 .mainArticleDescription {
@@ -23,9 +23,9 @@
 
 .homeMainLink {
     text-decoration: none;
-    border: solid 1px purple;
+    border: solid 1px #aa5e93;
     padding: 3px 15px 2px 15px;
-    color: purple;
+    color: #aa5e93;
 }
 
 .mainMediaContainer {
