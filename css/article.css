@@ -48,14 +48,18 @@
 .articleTextContainer {
     width: 100%;
     height: auto;
-
-    border: solid 2px red;
+    margin-top: 50px;
 }
 
 .articleTextWrapper {}
 
+.articleParagraphSpacing {
+    margin-bottom: 50px;
+}
+
 .articleMiddlePicWrapper {
     text-align: center;
+    margin: 10px 0 50px 0;
 }
 
 .articleMiddlePic {}
