@@ -1,5 +1,6 @@
 .mainTeaser {
-    height: 100%;
+    height: auto;
+    margin-top: 120px;
 }
 
 .mainTeaserContainer {
@@ -8,7 +9,8 @@
 
 .mainTextContainer {
     text-align: center;
-    margin: 20% 20px;
+    padding-top: -120px;
+    margin: 15% 20px 20% 20px;
     width: 50%;
     height: 100%;
 }

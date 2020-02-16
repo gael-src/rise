@@ -1,0 +1,50 @@
+body {
+    background-color: #f3f2ee;
+}
+
+.selfColor {
+    background-color: #aa5e93;
+}
+
+.selfTitlePicWrapper {
+    width: 100%;
+    margin-top: 120px;
+    height: auto;
+}
+
+.selfTextWrapper {
+    width: 100%;
+    height: auto;
+}
+
+.selfImage {
+    width: 100%;
+}
+
+.selfSubNavWrapper {
+    height: auto;
+    text-align: right;
+    align-self: center;
+}
+
+.subNavLink {
+    text-align: right;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    margin-left: 20px;
+}
+
+.subNavLink:hover {
+    border-bottom: solid 2px black;
+}
+
+.selTextSubWrapper {
+    height: auto;
+    margin: 8% 15%;
+}
+
+.selfText {
+    margin: 0;
+    font-weight: bold;
+}

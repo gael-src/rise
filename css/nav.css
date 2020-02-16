@@ -5,6 +5,7 @@
     justify-content: space-around;
     height: 120px;
     position: fixed;
+    top: 0;
 }
 
 .riseLogoWrapper {
