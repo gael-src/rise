@@ -1,1 +1,65 @@
+.articleTitlePicWrapper {
+    height: auto;
+    margin-top: 120px;
+
+}
+
+.articleTitlePic {
+    width: 100%;
+}
+
+.articleMainWrapper {
+    height: auto;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.articleTitlesWrapper {
+    text-align: center;
+    margin: 5% 25%;
+}
+
+.articleH2Title {
+    color: #aa5e93;
+    font-size: 28px;
+}
+
+.articleH3SubTitle {}
+
+
+.signatureWrapper {
+    height: auto;
+    text-align: right;
+}
+
+.authorSignature {
+    text-align: center;
+    display: inline-block;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+
+.searchLogoArticle {
+    width: 20px;
+    margin-right: 20px;
+    display: inline;
+}
+
+.articleTextContainer {
+    width: 100%;
+    height: auto;
+
+    border: solid 2px red;
+}
+
+.articleTextWrapper {}
+
+.articleMiddlePicWrapper {
+    text-align: center;
+}
+
+.articleMiddlePic {}
+
+.authorCardWrapper {}
+
 @media screen and (max-width: 1024px) {}
