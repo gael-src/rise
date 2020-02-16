@@ -1,46 +1,12 @@
 @import 'nav.css';
-@import 'teaser.css';
 @import 'main-teaser.css';
+@import 'teaser.css';
 @import 'footer.css';
 
-* {
-    font-family: 'Courier New', Courier, monospace;
+body {
     margin: 0;
     padding: 0;
     border: 0;
 }
 
-.humanRightsColor {
-    background-color: #da6645;
-    color: white;
-}
-
-.sustainabilityColor .mainLink {
-    border: solid 1px black;
-    color: black;
-}
-
-.sustainabilityColor {
-    background-color: rgb(228, 199, 36);
-}
-
-.diversityColor {
-    background-color: rgb(226, 110, 154);
-    color: white;
-}
-
-.innovationColor {
-    background-color: rgb(110, 142, 185);
-    color: white;
-}
-
-.selfColor {
-    background-color: #A15289;
-    color: white;
-}
-
-h2 {
-    margin-top: 0px;
-}
-
-@media screen and (min-width: 1024px) {}
+@media screen and (max-width: 1024px) {}

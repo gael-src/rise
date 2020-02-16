@@ -12,7 +12,7 @@
 
 .logoWrapper {
 	height: auto;
-	width: 25%;
+	min-width: 30%;
 }
 
 .footerLogo {
@@ -25,14 +25,6 @@
 }
 
 .footerLinkListLeft {}
-
-.footerLinkListRight {}
-
-.footerLinkListElement {
-	list-style: none;
-	font-weight: bold;
-	padding-bottom: 5px;
-}
 
 .footerLink {
 	text-decoration: none;
@@ -48,7 +40,15 @@
 
 .titelRightWrapper {
 	height: auto;
-	width: 30%;
+	min-width: 25%;
+}
+
+.footerLinkListRight {}
+
+.footerLinkListElement {
+	list-style: none;
+	font-weight: bold;
+	padding-bottom: 5px;
 }
 
 .newsletterSubscribeInput {
@@ -74,7 +74,6 @@
 	height: auto;
 	min-width: 30%;
 	text-align: right;
-
 }
 
 .contactTextOne {
@@ -96,3 +95,5 @@
 	display: inline-flex;
 	justify-content: right;
 }
+
+@media screen and (max-width: 1024px) {}

@@ -1,13 +1,41 @@
-.teaser {
-    padding: 20px;
+.sustainabilityColor .mainLink {
+    border: solid 1px black;
+    color: black;
+}
+
+.sustainabilityColor {
+    background-color: rgb(228, 199, 36);
+}
+
+.diversityColor {
+    background-color: rgb(226, 110, 154);
+    color: white;
+}
+
+.innovationColor {
+    background-color: rgb(110, 142, 185);
+    color: white;
+}
+
+.selfColor {
+    background-color: #A15289;
+    color: white;
+}
+
+.teaserReverse .textContainer {
+    order: -1;
+}
+
+.humanRightsColor {
+    background-color: #da6645;
+    color: white;
 }
 
 .teasersWrapper {
     padding-top: 50px;
     padding-bottom: 35px;
-}
 
-.teaserContainer {}
+}
 
 .categoryTitle {
     text-align: center;
@@ -15,18 +43,30 @@
     margin-bottom: 20px;
 }
 
+.teaser {
+    padding: 20px;
+}
+
+.teaserContainer {
+    display: flex;
+
+}
+
+.teaserImage {
+    width: 50%;
+}
+
 .mediaContainer {
     display: flex;
     justify-content: center;
     align-self: center;
+    width: 50%;
 }
 
-.teaserImage {
-    width: 60%;
-    border-radius: 50%;
+.textContainer {
+    width: 50%;
+    padding-top: 35px;
 }
-
-.textContainer {}
 
 .articleTitel {
     text-align: center;
@@ -43,8 +83,6 @@
     margin-bottom: 15px;
 }
 
-.articleLink {}
-
 .mainLink {
     text-decoration: none;
     padding: 3px;
@@ -53,36 +91,6 @@
     color: white;
 }
 
-@media screen and (min-width: 1024px) {
-    .mainTeaserContainer {
-        display: flex;
-    }
-    .mainMediaContainer {
-        width: 50%;
-        height: auto;
-    }
-    .mainTextContainer {
-        width: 50%;
-        height: 100%;
-    }
-    .mainTeaserImage {
-        width: 100%;
-        height: 100%;
-    }
-    .teaserReverse .textContainer {
-        order: -1;
-    }
-    .teasersWrapper {
-        padding-bottom: 35px;
-    }
-    .teaserContainer {
-        display: flex;
-    }
-    .mediaContainer {
-        width: 50%;
-    }
-    .textContainer {
-        width: 50%;
-        padding-top: 35px;
-    }
-}
+.articleLink {}
+
+@media screen and (min-width: 1024px) {}

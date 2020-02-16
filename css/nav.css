@@ -1,36 +1,75 @@
 .header {
     background-color: rgb(228, 199, 36);
     width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 120px;
+    position: fixed;
 }
 
-.riseLogoWrapper {}
+.riseLogoWrapper {
+    display: flex;
+}
 
 .riseLogo {
     width: 120px;
-    /* justify-content: center; */
-    /* align-self: center; */
+    justify-content: center;
+    align-self: center;
+    padding-left: 30px;
+    padding-right: 20px;
 }
 
 .navigation {
-    /* justify-content: center; */
-    /* align-self: center; */
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    align-self: center;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+.navTop {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navDown {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .navLink {
     text-decoration: none;
     color: black;
     font-weight: bold;
+    margin: 10px 20px 10px 20px;
 }
 
-.searchWrapper {}
+.navLink:hover {
+    border-bottom: 2px solid black;
+}
+
+.searchWrapper {
+    height: 100%;
+    display: flex;
+    align-self: center;
+    padding-left: 100px;
+    padding-right: 20px;
+    margin-right: 10px;
+}
 
 .searchLogo {
-    width: 15px;
+    height: 15px;
     margin-right: 5px;
+
 }
 
 .searchBar {
+    display: flex;
+    align-self: center;
     background-color: rgba(255, 0, 0, 0);
+    height: 25px;
     border-top: 0px;
     border-right: 0px;
     border-bottom: 1px solid black;
@@ -43,50 +82,4 @@ input::placeholder {
     color: black;
 }
 
-@media screen and (min-width: 1024px) {
-    .header {
-        display: flex;
-        justify-content: space-around;
-        height: 120px;
-        position: fixed;
-    }
-    .riseLogoWrapper {
-        display: flex;
-    }
-    .riseLogo {
-        justify-content: center;
-        align-self: center;
-        padding-left: 30px;
-        padding-right: 20px;
-    }
-    .navigation {
-        justify-content: center;
-        margin: 0;
-        padding: 0;
-        border: 0;
-        align-self: center;
-        padding-left: 30px;
-        padding-right: 20px;
-    }
-    .navTop {
-        display: flex;
-        justify-content: space-evenly;
-    }
-    .navDown {
-        display: flex;
-        justify-content: space-evenly;
-    }
-    .navLink {
-        margin: 10px 20px 10px 20px;
-    }
-    .navLink:hover {
-        border-bottom: 2px solid black;
-    }
-    .searchWrapper {
-        display: flex;
-        align-self: center;
-        padding-left: 100px;
-        padding-right: 20px;
-        margin-right: 10px;
-    }
-}
+@media screen and (max-width: 1024px) {}
