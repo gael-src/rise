@@ -5,6 +5,11 @@
 @import 'self.css';
 @import 'article.css';
 
+/* ANMERKUNG: 
+FAlls du dich bisschen über @import und Performance informieren möchtest:
+- https://www.giftofspeed.com/avoid-using-css-import/
+-https://stackoverflow.com/questions/10036977/best-way-to-include-css-why-use-import */
+
 body {
     margin: 0;
     padding: 0;

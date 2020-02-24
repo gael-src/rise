@@ -1,5 +1,5 @@
 .articleTitlePicWrapper {
-    height: auto;
+    height: auto; /* ANMERKUNG: Brauchst du das wirklich hier? */
     margin-top: 120px;
 
 }
@@ -40,7 +40,7 @@
 }
 
 .searchLogoArticle {
-    width: 20px;
+    width: 20px;/* ANMERKUNG: Inline Elemente ignorieren width */
     margin-right: 20px;
     display: inline;
 }

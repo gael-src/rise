@@ -9,7 +9,7 @@
 
 .mainTextContainer {
     text-align: center;
-    padding-top: -120px;
+    padding-top: -120px; /*ANMERKUNG: Negativ padding ist ungültig */
     margin: 15% 20px 20% 20px;
     width: 50%;
     height: 100%;
@@ -38,7 +38,7 @@
     margin: 0;
     padding: 0;
     width: 50%;
-    height: auto;
+    height: auto; /* Hier überschreibst du dein vorheriges height */
 }
 
 .mainTeaserImage {
