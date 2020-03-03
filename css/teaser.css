@@ -49,7 +49,6 @@
 
 .teaserContainer {
     display: flex;
-
 }
 
 .teaserImage {
@@ -79,7 +78,6 @@
     text-align: center;
     margin-top: 0px;
     margin-bottom: 25px;
-
 }
 
 .articleDescription {
@@ -97,4 +95,17 @@
 
 .articleLink {}
 
-@media screen and (min-width: 1024px) {}
+@media only screen and (max-width: 600px) {
+    .teaserContainer {
+        flex-direction: column;
+    }
+    .mediaContainer {
+        width: 100%;
+    }
+    .textContainer {
+        width: 100%;
+    }
+    .teaserReverse .textContainer {
+        order: 1;
+    }
+}
