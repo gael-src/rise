@@ -65,6 +65,7 @@
 .authorCardWrapper {
     display: flex;
     width: 100%;
+    width: 100%;
 }
 
 .authorLeftPicWrapper {
@@ -72,6 +73,7 @@
 }
 
 .authorRightTextWrapper {}
+
 
 .authorDescription {
     width: 280px;
@@ -96,6 +98,7 @@
     width: 90%;
     margin: 20px auto;
     margin-bottom: 30px;
+    width: 100%;
 }
 
 .moreInSelf {
@@ -115,6 +118,7 @@
 }
 
 .subSelfTeaserLinks {
+    width: 100%;
     color: #aa5e93;
     text-decoration: none;
     border: solid 2px #aa5e93;
@@ -166,19 +170,20 @@
 }
 
 @media only screen and (max-width: 600px) {
-    /* .signatureWrapper {
-        height: auto;
-        text-align: right;
+    .articleSubSelfTeaserWrapper {
+        flex-direction: column;
     }
-    .authorSignature {
-        text-align: center;
-        display: inline-block;
-        margin-right: 30%;
-        margin-left: 30%;
+
+    .articleSubSelfTeaserContainers {
+        height: 100%;
+        width: 100%;
     }
-    .searchLogoArticle {
-        width: 20px;
-        margin-right: 20px;
-        display: inline-block;
-    } */
+
+    .articleSubCommunityTeaserWrapper {
+        flex-direction: column;
+    }
+
+    .articleSubCommunityTeaserContainers {
+        width: 100%;
+    }
 }
