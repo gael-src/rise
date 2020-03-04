@@ -5,6 +5,7 @@
 
 .mainTeaserContainer {
     display: flex;
+    height: calc(100vh - 120px);
 }
 
 .mainTextContainer {
@@ -51,12 +52,15 @@
     .mainTeaserContainer {
         flex-direction: column;
     }
+
     .mainTextContainer {
         width: 100%;
     }
+
     .mainMediaContainer {
         width: 100%;
     }
+
     .mainTeaserContainer .mainMediaContainer {
         order: -1;
     }
