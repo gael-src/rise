@@ -186,4 +186,8 @@
     .articleSubCommunityTeaserContainers {
         width: 100%;
     }
+
+    .articleMiddlePicWrapper {
+        border: solid;
+    }
 }
