@@ -102,4 +102,52 @@
     width: 30px;
 }
 
-@media only screen and (max-width: 600px) {}
+@media only screen and (max-width: 600px) {
+    .mainWrapper {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .logoWrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 0;
+    }
+    .titelLeftWrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 0;
+    }
+    .titelLeftWrapper>p {
+        display: none;
+    }
+    .titelRightWrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .newsletterSubscribeInput {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .newsletterSubscribeButton {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .contactWrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .marginBetween {
+        margin-bottom: 5px;
+    }
+    .searchLogoFooter {
+        margin: 10px 0;
+    }
+}
