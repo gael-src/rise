@@ -65,6 +65,7 @@
     }
     .mainMediaContainer {
         width: 100%;
+        /* height: auto; */
     }
     .mainTeaserContainer .mainMediaContainer {
         order: -1;
