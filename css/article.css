@@ -191,4 +191,7 @@
     .authorCardWrapper {
         flex-direction: column;
     }
+    .commentLink {
+        padding: 10px 80px 10px 80px;
+    }
 }
