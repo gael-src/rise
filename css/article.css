@@ -169,6 +169,9 @@
 }
 
 @media only screen and (max-width: 600px) {
+    .articleTitlePicWrapper {
+        margin-top: 0px;
+    }
     .articleSubSelfTeaserWrapper {
         flex-direction: column;
     }
