@@ -60,7 +60,9 @@
     margin: 10px 0 50px 0;
 }
 
-.articleMiddlePic {}
+.articleMiddlePic {
+    width: 100%;
+}
 
 .authorCardWrapper {
     display: flex;
@@ -183,9 +185,10 @@
         flex-direction: column;
     }
     .articleSubCommunityTeaserContainers {
-        width: 100%;
+        width: auto;
     }
-    .articleMiddlePicWrapper {
-        border: solid;
+    .articleMiddlePicWrapper {}
+    .authorCardWrapper {
+        flex-direction: column;
     }
 }

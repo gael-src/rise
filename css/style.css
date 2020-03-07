@@ -1,7 +1,10 @@
 @import 'nav.css';
 @import 'main-teaser.css';
 @import 'teaser.css';
-@import 'footer.css';
+
+/* @import 'footer1.css'; */
+
+@import 'footer2.css';
 @import 'self.css';
 @import 'article.css';
 body {
