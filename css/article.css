@@ -57,7 +57,8 @@
 
 .articleMiddlePicWrapper {
     text-align: center;
-    margin: 10px 0 50px 0;
+    margin: 10px auto 50px auto;
+    width: 50%;
 }
 
 .articleMiddlePic {
