@@ -38,7 +38,7 @@
     height: 70vh;
     margin: 0;
     padding: 0;
-    width: 50%;
+    min-width: 50%;
     height: auto;
 }
 
@@ -53,18 +53,19 @@
         margin-top: 0px;
     }
     .mainTeaserContainer {
-        height: 100vh;
+        min-height: 100vh;
     }
     .mainTeaserContainer {
         flex-direction: column;
     }
     .mainTextContainer {
         width: auto;
-        height: auto;
+        min-height: 50vh;
         margin: 60px 20px;
     }
     .mainMediaContainer {
         width: 100%;
+        min-height: 50vh;
     }
     .mainTeaserContainer .mainMediaContainer {
         order: -1;
