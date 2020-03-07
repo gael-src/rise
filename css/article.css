@@ -188,7 +188,9 @@
     .articleSubCommunityTeaserContainers {
         width: auto;
     }
-    .articleMiddlePicWrapper {}
+    .articleMiddlePicWrapper {
+        width: 80%;
+    }
     .authorCardWrapper {
         flex-direction: column;
     }
