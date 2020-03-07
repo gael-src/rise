@@ -3,7 +3,7 @@
         width: 100%;
         display: flex;
         justify-content: space-around;
-        height: 120px;
+        height: 60px;
         position: fixed;
         top: 0;
     }
@@ -42,12 +42,13 @@
     .navTop {
         display: flex;
         justify-content: space-evenly;
+        width: auto;
     }
-    
-    .navDown {
+    /* UNCOMMENT FOR FIRST NAV VERSION */
+    /* .navDown {
         display: flex;
         justify-content: space-evenly;
-    }
+    } */
     
     .navLink {
         text-decoration: none;
@@ -65,7 +66,7 @@
         height: 100%;
         display: flex;
         align-self: center;
-        padding-left: 100px;
+        padding-left: 60px;
         padding-right: 20px;
         margin-right: 10px;
     }
@@ -97,15 +98,19 @@
     @media only screen and (max-width: 1024px) {
         .searchWrapper {
             display: none;
-            padding: 30px 0;
         }
     }
     
     @media only screen and (max-width: 600px) {
+        .searchWrapper {
+            display: flex;
+            padding: 30px 0;
+        }
         .header {
             flex-direction: column;
             height: auto;
             align-items: center;
+            position: relative;
         }
         .riseLogoWrapper {
             padding: 30px 0;
@@ -119,8 +124,9 @@
         .navTop {
             flex-direction: column;
         }
-        .navDown {
+        /* UNCOMMENT FOR FIRST NAV VERSION */
+        /* .navDown {
             flex-direction: column;
             padding-bottom: 30px;
-        }
+        } */
     }

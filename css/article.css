@@ -1,6 +1,6 @@
 .articleTitlePicWrapper {
     height: auto;
-    margin-top: 120px;
+    margin-top: 60px;
 }
 
 .articleTitlePic {
@@ -73,7 +73,6 @@
 }
 
 .authorRightTextWrapper {}
-
 
 .authorDescription {
     width: 280px;
@@ -173,20 +172,16 @@
     .articleSubSelfTeaserWrapper {
         flex-direction: column;
     }
-
     .articleSubSelfTeaserContainers {
         height: 100%;
         width: 100%;
     }
-
     .articleSubCommunityTeaserWrapper {
         flex-direction: column;
     }
-
     .articleSubCommunityTeaserContainers {
         width: 100%;
     }
-
     .articleMiddlePicWrapper {
         border: solid;
     }
