@@ -65,7 +65,6 @@
     }
     .mainMediaContainer {
         width: 100%;
-        min-height: 50vh;
     }
     .mainTeaserContainer .mainMediaContainer {
         order: -1;
