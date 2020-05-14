@@ -10,7 +10,7 @@ https://uxfol.io/project/04331151/Rise-magazine
 
 
 
-https://gael-src.github.io/Rise/index.html
+https://gael-src.github.io/rise/
 
 
 https://gael-src.github.io/
