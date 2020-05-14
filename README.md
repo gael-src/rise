@@ -1,7 +1,6 @@
 # Rise
 
 Web Magazine
-#*
 
 UX/UI design from: Marick Ballack
 
