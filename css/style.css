@@ -1,22 +1,37 @@
-@import 'nav.css';
-@import 'main-teaser.css';
-@import 'teaser.css';
+@import "nav.css";
+@import "main-teaser.css";
+@import "teaser.css";
 
 /* @import 'footer1.css'; */
 
-@import 'footer2.css';
-@import 'self.css';
-@import 'article.css';
+@import "footer2.css";
+@import "self.css";
+@import "article.css";
 body {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 @media only screen and (max-width: 250px) {
-    body {
-        word-break: break-all;
-    }
+  body {
+    word-break: break-all;
+  }
+}
+
+/* GAEL-SRC.GITHUB.IO */
+.gael-src-link {
+  color: #0081ff;
+  border: solid 1px #0081ff;
+  text-decoration: none;
+  font-size: 16px;
+  min-height: 10px;
+  margin: 10px 10px 10px 10px;
+  padding: 5px 10px;
+}
+.gael-src-link:hover {
+  color: #0081ff;
+  text-decoration: underline;
 }
