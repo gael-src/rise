@@ -23,15 +23,24 @@ body {
 
 /* GAEL-SRC.GITHUB.IO */
 .gael-src-link {
-  color: #0081ff;
-  border: solid 1px #0081ff;
+  color: black;
+  border: solid 1px black;
   text-decoration: none;
-  font-size: 16px;
-  min-height: 10px;
-  margin: 10px 10px 10px 10px;
+  text-align: center;
+  font-size: 18px;
+  /* margin: auto; */
   padding: 5px 10px;
 }
 .gael-src-link:hover {
-  color: #0081ff;
-  text-decoration: underline;
+  color: white;
+  background-color: black;
+}
+.gael-src-link-wrapper {
+  min-height: 500px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
 }
