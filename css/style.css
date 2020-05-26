@@ -28,7 +28,6 @@ body {
   text-decoration: none;
   text-align: center;
   font-size: 18px;
-  /* margin: auto; */
   padding: 5px 10px;
 }
 .gael-src-link:hover {
@@ -42,5 +41,4 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
