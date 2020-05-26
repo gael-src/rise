@@ -1,6 +1,6 @@
 # Rise
 
-Web Magazine
+HTML CSS Web Magazine Layout
 
 UX/UI design from: Marick B.
 
